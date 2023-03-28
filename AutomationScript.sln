@@ -32,6 +32,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Actions", "Actions", "{3B5C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Empower_Session2_Start_1", "Empower_Session2_Start_1\Empower_Session2_Start_1.csproj", "{BF8DAC2F-355F-4589-AFDD-10B04815EF80}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EmpowerScript2", "EmpowerScript2", "{E7D3BF27-3E0C-4B90-B572-5AA55258DC5C}"
+	ProjectSection(SolutionItems) = preProject
+		EmpowerScript2.xml = EmpowerScript2.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Actions", "Actions", "{3B6C88F7-D857-419C-BE2A-8B07B6579AF9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmpowerScript2_1", "EmpowerScript2_1\EmpowerScript2_1.csproj", "{7F8145BB-9BB6-4CD9-8571-FDFA8B4161E7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -42,6 +51,10 @@ Global
 		{BF8DAC2F-355F-4589-AFDD-10B04815EF80}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BF8DAC2F-355F-4589-AFDD-10B04815EF80}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BF8DAC2F-355F-4589-AFDD-10B04815EF80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F8145BB-9BB6-4CD9-8571-FDFA8B4161E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F8145BB-9BB6-4CD9-8571-FDFA8B4161E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F8145BB-9BB6-4CD9-8571-FDFA8B4161E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F8145BB-9BB6-4CD9-8571-FDFA8B4161E7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -51,6 +64,9 @@ Global
 		{1A715348-0683-4F02-B6B0-66E0FA092A23} = {2D059CC1-59B9-4B26-A4FF-BAF066E58A78}
 		{3B5C96B8-BF3A-4E00-9F4B-9CB210E659C2} = {1A715348-0683-4F02-B6B0-66E0FA092A23}
 		{BF8DAC2F-355F-4589-AFDD-10B04815EF80} = {3B5C96B8-BF3A-4E00-9F4B-9CB210E659C2}
+		{E7D3BF27-3E0C-4B90-B572-5AA55258DC5C} = {2D059CC1-59B9-4B26-A4FF-BAF066E58A78}
+		{3B6C88F7-D857-419C-BE2A-8B07B6579AF9} = {E7D3BF27-3E0C-4B90-B572-5AA55258DC5C}
+		{7F8145BB-9BB6-4CD9-8571-FDFA8B4161E7} = {3B6C88F7-D857-419C-BE2A-8B07B6579AF9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5C424EC6-0FF7-4835-8A23-86603B16BB36}
