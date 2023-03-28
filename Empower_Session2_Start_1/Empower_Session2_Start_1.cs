@@ -54,6 +54,8 @@ using System.Collections.Generic;
 using System.Globalization;
 using System.Text;
 using Skyline.DataMiner.Automation;
+using Skyline.DataMiner.Core.DataMinerSystem.Automation;
+using Skyline.DataMiner.Core.DataMinerSystem.Common;
 
 /// <summary>
 /// DataMiner Script Class.
@@ -67,5 +69,13 @@ public class Script
 	public void Run(Engine engine)
 	{
 		engine.GenerateInformation("Hello World");
+
+		IDms thisDms = engine.GetDms();
+
+		var elements = thisDms.GetElements();
+		foreach ( var element in elements )
+		{
+			engine.GenerateInformation(element.Name);
+		}
 	}
 }
