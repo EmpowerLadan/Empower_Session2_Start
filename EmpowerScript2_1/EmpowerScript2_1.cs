@@ -69,8 +69,8 @@ namespace EmpowerScript2_1
 		/// <param name="engine">Link with SLAutomation process.</param>
 		public void Run(IEngine engine)
 		{
-			var order = OrderFactory.CreateOrder("Order 1");
-			order.Dispatch("Ladan");
+			var order = OrderFactory.CreateOrder("Order 2");
+			order.Dispatch("Ladan Order 2");
 		}
 	}
 }
